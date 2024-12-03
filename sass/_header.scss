@@ -1,0 +1,97 @@
+.header{
+        background: #003d32;
+        .navbar{
+            color: #fff;
+            &__wrapper{
+                display: flex;
+                align-items: center;
+                gap: 50px;
+            }
+            &__deliver{
+                background: none;
+                border: none;
+                cursor: pointer;
+                p{
+                    font-size: 10px;
+                    font-weight: 400;
+                    color: #808080bd;
+                }
+                span{
+                    font-size: 13px;
+                    font-weight: 500;
+                    color: #fff;
+                }
+            }
+            &__deliver:active{
+                transform: scale(.96);
+            }
+            &__sorch{
+                align-items: center;
+                text-align: center;
+                display: flex;
+            }
+            &__btn{
+                height: 38px;
+                width: 70px;
+                padding: 7px 10px 10px 0;
+                border-radius: 5px 0 0 5px;
+                border: none;
+                color: #0f1111;
+                font-size: 10px;
+                cursor: pointer ;
+            }
+            &__btn:active{
+                transform: scale(.96);
+            }
+            input{
+                width: 400px;
+                line-height: 15px;
+                padding: 7px 10px 10px 0;
+                border: 0;
+                height: 38px;
+                font-family: inherit;
+                font-size: 15px;
+                background: #fff;
+                color: #111;
+                outline: 0;
+                text-indent: 8px;
+                direction: ltr;
+            }
+            .fa-search{
+                background: #b91678;
+                height: 38px;
+                width: 70px;
+                padding: 10px 10px;
+                border-radius: 0 5px 5px 0;
+                border: none;
+                font-size: 90px;
+                color: #fff;
+                font-size: 20px;
+                cursor: pointer;
+            }
+            .fa-search:active{
+                transform: scale(.96);
+            }
+            &__action{
+                display: flex;
+                border: none;
+                align-items: center;
+                background: none;
+                select{
+                 color: gray;
+                 font-size: 18px;
+                 font-weight: 600;
+                 background: none;
+                 border: none;
+                }
+            }
+            h4{
+                font-size: 12px;
+                font-weight: 500;
+            }
+            h3{
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+}

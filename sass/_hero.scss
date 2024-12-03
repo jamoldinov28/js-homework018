@@ -1,0 +1,71 @@
+body{
+    background: #f0f7fd;
+}
+.hero{
+    overflow: hidden;
+    margin-bottom: 30px;
+    &__wrapper{
+        margin-top: -200px;
+        margin-left: 10px;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    &__box{
+        background: #fff;
+        width: 415px;
+        height: 430px;
+        display: flex;
+        flex-wrap: wrap;
+    }   
+    &__boxx{
+        background: #fff;
+        width: 378px;
+        height: 430px;
+        display: flex;
+        flex-wrap: wrap;
+    }   
+    &__image{
+        margin-top: -20px;
+        padding: 5px 10px;
+        height: 150px;
+    }
+    h2{
+        font-weight: 16px;
+        font-weight: 500;
+        padding: 0 10px;
+        margin-bottom: 5px;
+        color: #000;
+    }
+    p{
+        font-size: 12px;
+        font-weight: 400;
+        color: #000;
+    }
+    h6{
+        padding: 0 10px;
+        color: dodgerblue;
+        font-size: 10px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+    &__purchase{
+        padding: 0 25px;
+        width: 700px;
+        margin-bottom: 20px;
+    }
+    h1{
+        font-weight: 16px;
+        font-weight: 500;
+        padding: 10px 20px;
+        color: #000;
+    }
+    span{
+        padding: 0 10px;
+        color: dodgerblue;
+        font-size: 10px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+}
